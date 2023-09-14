@@ -1,1 +1,52 @@
-e
+print("Hello, to calculate the tip of your meal please enter the amout to pay first")
+
+total = input()
+
+print("Now,enter the percentage you would like to tip without any signs")
+
+tip = input()
+
+total_with_discount= int(total)*(int(tip)/100)+int(total)
+
+print("your total amount to pay is", total_with_discount)
+
+tip_amount= int(total)*(int(tip)/100)
+
+print("The tip amount is", tip_amount)
+
+print("and the original cost of the meal is", total)
+
+print("---------------------------------------------")
+
+print("Now I'll convert the temperature from Celsius to Farenheit and Kelvin degrees for you")
+print("Please enter the temperature in celsius degrees")
+
+celsius= input()
+
+farenheit= int(celsius)*(9/5) + 32
+
+kelvin= int(celsius)+273.15
+
+print("The weather in Farenheit degrees is", farenheit)
+print("The weather in Kelvin degrees is", kelvin)
+
+print("---------------------------------------------")
+
+print("To give you the final price of the product with discount enter the original price first")
+
+original= input()
+
+print("Enter the discount percentage without any signs")
+
+percentage= input()
+
+price_w_disc= int(original)-int(original)*(int(percentage)/100)
+
+disc_amount= int(original)*(int(percentage)/100)
+
+percentage_of_disc= percentage
+
+print("The price with discount is", price_w_disc)
+print("The discount amount is", disc_amount)
+print("the percentage of the discount is", percentage) 
+print("%")
