@@ -1,1 +1,85 @@
+"""
+Hard 110/100
+"""
+
+print("To calculate the velocity of each 2 meter iteration please insert the first quantity of time in seconds")
+
+first=input()
+
+print("Now enter the second quantity of time in seconds")
+
+second=input()
+
+print("Now please enter the third lapse of time, again, in seconds")
+
+third=input()
+
+velocity_one=2/int(first)
+
+velocity_two=2/int(second)
+
+velocity_three=2/int(third)
+
+print("The velocity of each iteration is, for the first one", velocity_one) 
+print("meters per second")
+
+print("For the second one it is equal to", velocity_two)
+print("meters per second")
+
+print("For the third one it is equal to", velocity_three)
+print("meters per second")
+
+average= (float(velocity_one)+float(velocity_two)+float(velocity_three))/3
+
+
+print("The average velocity of the three iterations is", average)
+print("meters per second")
+
+"___________________________________________"
+
+
+print("What is the distance covered in meters for each segment?")
+
+distance= input()
+
+print("To calculate the average acceleration, please insert the time covered in the first iteration in seconds")
+
+
+time_one= input()
+
+print("Now enter the second one")
+
+time_two= input()
+
+print("Lastly, enter the third one")
+
+time_three= input()
+
+average_time= (float(time_one)+float(time_two)+float(time_three))/3
+
+average_acc= float(average)/float(average_time)
+
+print("The average acceleration is equal to", average_acc)
+
+
+print("So here's a list of your results ")
+print("The first velocity is equal to", velocity_one)
+print("The second velocity is", velocity_two)
+print("The third velocity is", velocity_three)
+print("The average velocity is", average)
+print("And lastly, the average acceleration is", average_acc)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
