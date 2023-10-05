@@ -1,0 +1,54 @@
+#First round
+#addition and substraction
+def addition(a,b):
+  x = a + b
+  return x
+
+def substraction(a,b):
+  x = a-b
+  return x
+
+print("Give me the first number: ")
+a = int(input())
+print("Give me the second number: ")
+b = int(input())
+print(f"The addition is {addition(a,b)} and the substraction is {substraction(a,b)}")
+
+#multiplication and division
+def multiplication(a,b):
+  x = a * b
+  return x
+
+def division(a,b):
+  x = a/b
+  return x 
+
+print("Give me the first number")
+a = int(input())
+print("Now the second number")
+b = int(input())
+print(f"The multiplication is {multiplication(a,b)} and the division is {division(a,b)}")
+
+#Second round
+#unit conversion
+
+def conversion():
+  meters = kilometers*100
+  return meters
+
+print("Hello, can you please give me the distance from point a to point b in km")
+kilometers = int(input())
+print(f"The distance in meters is {conversion()}")
+
+#Round three
+#Triangle area
+
+def triangle_area(base, height):
+  area = (base * height)/2
+  return area
+
+print("Hello, can you tell me the length of the base of this triangle?")
+base = int(input())
+print("Now tell me the length of the height")
+height = int(input())
+print(f"The triangle area is {triangle_area(base, height)} There we go")
